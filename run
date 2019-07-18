@@ -1,0 +1,76 @@
+#!/bin/bash -e
+echo "###############################################"
+echo "#################### PWD=$PWD"
+
+
+
+function join_by { local IFS="$1"; shift; echo "$*"; }
+LIBS=$(join_by ':' $(find extern/ -maxdepth 2 -type d -name lib))
+
+CMAKE_BUILD_TYPE="$(cat ${PWD}/target/cmake_build_type.txt)"
+
+TARGET=$1
+PYTHON_DIR=extern/Python27
+
+PYTHON_LIB_PATH=$(${PYTHON_DIR}/bin/python -c "from sysconfig import get_paths; print(get_paths()['stdlib'])")
+PYTHON_INCLUDE_PATH=$(${PYTHON_DIR}/bin/python -c "from sysconfig import get_paths; print(get_paths()['include'])")
+PYTHON_SITEPACKAGES=$(${PYTHON_DIR}/bin/python -c "from sysconfig import get_paths; print(get_paths()['purelib'])")
+
+PATH=$PATH PYTHONHOME=${PYTHON_DIR} LD_LIBRARY_PATH=${LIBS} ${PWD}/target/${CMAKE_BUILD_TYPE,}/bin/${TARGET}
+
+
+exit -1
+
+echo "############ Run make wrapper #################"
+echo "############ Input : { $@ }..."
+
+make CMAKE=/home/a/W/W.priv/Extern/CMake/bin/cmake $@ || exit
+make CMAKE=/home/a/W/W.priv/Extern/CMake/bin/cmake $@ install || true
+
+echo "###############################################"
+echo "############ Show binaries ####################"
+find target
+
+echo "###############################################"
+echo "############ Run MPI Sample ###################"
+
+echo PWD=$PWD
+
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 target/debug/bin/boost_threading_mpi.boost-ompi
+
+echo "############# Finish MPI run..."
+
+exit
+
+echo "###############################################"
+echo "################ Run MPI ##w####################"
+
+MPI_TARGETS="$(find ./target | grep /bin | grep .ompi$)"
+MPI_TESTS="$(find ./target | grep /test | grep .ompi$)"
+
+BOOST_MPI_TARGETS="$(find ./target | grep /bin | grep .boost-ompi$)"
+BOOST_MPI_TESTS="$(find ./target | grep /test | grep .boost-ompi$)"
+
+
+for mpi in $MPI_TARGETS; do
+echo "OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}"
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}
+done
+
+for mpi in $MPI_TESTS; do
+echo "OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}"
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}
+done
+
+for mpi in $BOOST_MPI_TARGETS; do
+echo "OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}"
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}
+done
+
+for mpi in $BOOST_MPI_TESTS; do
+echo "OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}"
+OPAL_PREFIX=${PWD}/extern/OpenMPI LD_LIBRARY_PATH=$LIBS extern/OpenMPI/bin/mpirun -n 4 ${mpi}
+done
+
+
+#MPI expect full path for PREFIX, so that docs will work properly

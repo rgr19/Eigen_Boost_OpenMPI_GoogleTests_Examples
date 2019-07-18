@@ -1,0 +1,318 @@
+{
+  "arch": "x86_64",
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ptyprocess >=0.5",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/pexpect-4.6.0-py27_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/pexpect/ANSI.py",
+    "lib/python2.7/site-packages/pexpect/ANSI.pyc",
+    "lib/python2.7/site-packages/pexpect/FSM.py",
+    "lib/python2.7/site-packages/pexpect/FSM.pyc",
+    "lib/python2.7/site-packages/pexpect/__init__.py",
+    "lib/python2.7/site-packages/pexpect/__init__.pyc",
+    "lib/python2.7/site-packages/pexpect/_async.py",
+    "lib/python2.7/site-packages/pexpect/bashrc.sh",
+    "lib/python2.7/site-packages/pexpect/exceptions.py",
+    "lib/python2.7/site-packages/pexpect/exceptions.pyc",
+    "lib/python2.7/site-packages/pexpect/expect.py",
+    "lib/python2.7/site-packages/pexpect/expect.pyc",
+    "lib/python2.7/site-packages/pexpect/fdpexpect.py",
+    "lib/python2.7/site-packages/pexpect/fdpexpect.pyc",
+    "lib/python2.7/site-packages/pexpect/popen_spawn.py",
+    "lib/python2.7/site-packages/pexpect/popen_spawn.pyc",
+    "lib/python2.7/site-packages/pexpect/pty_spawn.py",
+    "lib/python2.7/site-packages/pexpect/pty_spawn.pyc",
+    "lib/python2.7/site-packages/pexpect/pxssh.py",
+    "lib/python2.7/site-packages/pexpect/pxssh.pyc",
+    "lib/python2.7/site-packages/pexpect/replwrap.py",
+    "lib/python2.7/site-packages/pexpect/replwrap.pyc",
+    "lib/python2.7/site-packages/pexpect/run.py",
+    "lib/python2.7/site-packages/pexpect/run.pyc",
+    "lib/python2.7/site-packages/pexpect/screen.py",
+    "lib/python2.7/site-packages/pexpect/screen.pyc",
+    "lib/python2.7/site-packages/pexpect/spawnbase.py",
+    "lib/python2.7/site-packages/pexpect/spawnbase.pyc",
+    "lib/python2.7/site-packages/pexpect/utils.py",
+    "lib/python2.7/site-packages/pexpect/utils.pyc"
+  ],
+  "fn": "pexpect-4.6.0-py27_0.tar.bz2",
+  "license": "ISC",
+  "license_family": "Other",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/pexpect-4.6.0-py27_0",
+    "type": 1
+  },
+  "md5": "80a0300148e04483f4d6af2b24cc25ed",
+  "name": "pexpect",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/pexpect-4.6.0-py27_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "553b27cdc8b26aaddf72fa62f3791dfdceae2c5dbf0a1329454be405c074daf3",
+        "sha256_in_prefix": "553b27cdc8b26aaddf72fa62f3791dfdceae2c5dbf0a1329454be405c074daf3",
+        "size_in_bytes": 2179
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5faebe8b9089513607edd99297f51f14152a38f84fa4ebdb5274796c0f3961af",
+        "sha256_in_prefix": "5faebe8b9089513607edd99297f51f14152a38f84fa4ebdb5274796c0f3961af",
+        "size_in_bytes": 1928
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "81dbae3f206f149412434cddcb117b934cf29c35db21bbe0e59047a17ba6e6e9",
+        "sha256_in_prefix": "81dbae3f206f149412434cddcb117b934cf29c35db21bbe0e59047a17ba6e6e9",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect-4.6.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3be6f7518f55419916df20c078535ab5438a3b81a88d558ee134c7a08f7e13b9",
+        "sha256_in_prefix": "3be6f7518f55419916df20c078535ab5438a3b81a88d558ee134c7a08f7e13b9",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/ANSI.py",
+        "path_type": "hardlink",
+        "sha256": "680fb7b5d5f3fc56781bb3c0a85662e60d4a04643a3f32734b4826dc02d9299c",
+        "sha256_in_prefix": "680fb7b5d5f3fc56781bb3c0a85662e60d4a04643a3f32734b4826dc02d9299c",
+        "size_in_bytes": 12177
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/ANSI.pyc",
+        "path_type": "hardlink",
+        "sha256": "d867e7fcb45f2080dad7cd3048220819fc2e267943a4e5735d7b7e931c198b18",
+        "sha256_in_prefix": "d867e7fcb45f2080dad7cd3048220819fc2e267943a4e5735d7b7e931c198b18",
+        "size_in_bytes": 13062
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/FSM.py",
+        "path_type": "hardlink",
+        "sha256": "b65ba2c9418cc881f7abfc0b1ba024d4d655b9750018d0e3aba93a04ad6af116",
+        "sha256_in_prefix": "b65ba2c9418cc881f7abfc0b1ba024d4d655b9750018d0e3aba93a04ad6af116",
+        "size_in_bytes": 13419
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/FSM.pyc",
+        "path_type": "hardlink",
+        "sha256": "46a7ff6a83716a0de2e5b6762f820611eca8ee9557c3a17fcb13dd1476414d23",
+        "sha256_in_prefix": "46a7ff6a83716a0de2e5b6762f820611eca8ee9557c3a17fcb13dd1476414d23",
+        "size_in_bytes": 13953
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2cc36c77eeed3a9d1286bb0720b1dc64c2687f5ade2ff3b97ff9725b4f3376df",
+        "sha256_in_prefix": "2cc36c77eeed3a9d1286bb0720b1dc64c2687f5ade2ff3b97ff9725b4f3376df",
+        "size_in_bytes": 3902
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "006b1ef23d9b79d5f85c1a1b9fb5f69db6459aced6485808eb65017734132b43",
+        "sha256_in_prefix": "006b1ef23d9b79d5f85c1a1b9fb5f69db6459aced6485808eb65017734132b43",
+        "size_in_bytes": 4135
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/_async.py",
+        "path_type": "hardlink",
+        "sha256": "5307aededc6f8e531be684b459d95a26005ff8cebb413d64bf7fcc2f2464f6a4",
+        "sha256_in_prefix": "5307aededc6f8e531be684b459d95a26005ff8cebb413d64bf7fcc2f2464f6a4",
+        "size_in_bytes": 2685
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/bashrc.sh",
+        "path_type": "hardlink",
+        "sha256": "0872bca8383f1ed0d575fc8350b395f0c643443af8a4e6886e8df55d5e7c9d0b",
+        "sha256_in_prefix": "0872bca8383f1ed0d575fc8350b395f0c643443af8a4e6886e8df55d5e7c9d0b",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "03d0b53d66c17368fd00abe7bfb5243c26b08454c419899e50b5b4bf06ccbd74",
+        "sha256_in_prefix": "03d0b53d66c17368fd00abe7bfb5243c26b08454c419899e50b5b4bf06ccbd74",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/exceptions.pyc",
+        "path_type": "hardlink",
+        "sha256": "15903eef02ce106762996b6c318a5af87be1054debef74827b289d99dc1d3f6c",
+        "sha256_in_prefix": "15903eef02ce106762996b6c318a5af87be1054debef74827b289d99dc1d3f6c",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/expect.py",
+        "path_type": "hardlink",
+        "sha256": "ef7be9ff49629930d3c4b0d600927e97252c760ba69f20ebdf846f815d1469da",
+        "sha256_in_prefix": "ef7be9ff49629930d3c4b0d600927e97252c760ba69f20ebdf846f815d1469da",
+        "size_in_bytes": 11035
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/expect.pyc",
+        "path_type": "hardlink",
+        "sha256": "95c56d43c9ca616d86d818d15249e76841cb4f89dc16957fe3781831f7f2066f",
+        "sha256_in_prefix": "95c56d43c9ca616d86d818d15249e76841cb4f89dc16957fe3781831f7f2066f",
+        "size_in_bytes": 9432
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/fdpexpect.py",
+        "path_type": "hardlink",
+        "sha256": "ba04ebc2f7858becdf97f9ce3e36d1c8b5044755a686ef18c5ccc25ad6606567",
+        "sha256_in_prefix": "ba04ebc2f7858becdf97f9ce3e36d1c8b5044755a686ef18c5ccc25ad6606567",
+        "size_in_bytes": 5828
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/fdpexpect.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7575ba2d789a0037505f06bad20c4238e2586617215eef9ead9b471a37236ea",
+        "sha256_in_prefix": "f7575ba2d789a0037505f06bad20c4238e2586617215eef9ead9b471a37236ea",
+        "size_in_bytes": 6576
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/popen_spawn.py",
+        "path_type": "hardlink",
+        "sha256": "8551ceaabdb68c3d8fafec9582c7f082a180b542cb8ba9092ca411ad304fbc48",
+        "sha256_in_prefix": "8551ceaabdb68c3d8fafec9582c7f082a180b542cb8ba9092ca411ad304fbc48",
+        "size_in_bytes": 6161
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/popen_spawn.pyc",
+        "path_type": "hardlink",
+        "sha256": "633851ebed8afc500eeb4d01d91ca2d402a214c8fa4195e12778458caa2bc0ef",
+        "sha256_in_prefix": "633851ebed8afc500eeb4d01d91ca2d402a214c8fa4195e12778458caa2bc0ef",
+        "size_in_bytes": 6266
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/pty_spawn.py",
+        "path_type": "hardlink",
+        "sha256": "77f793f0a893d22a3891643244df4dd149b0dd373d101ed433dd179abf7216ad",
+        "sha256_in_prefix": "77f793f0a893d22a3891643244df4dd149b0dd373d101ed433dd179abf7216ad",
+        "size_in_bytes": 35855
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/pty_spawn.pyc",
+        "path_type": "hardlink",
+        "sha256": "1404aa6eb49e4ddcbfe1a3d195963093328fca571a01a0cbd97bd7fc2debf4d8",
+        "sha256_in_prefix": "1404aa6eb49e4ddcbfe1a3d195963093328fca571a01a0cbd97bd7fc2debf4d8",
+        "size_in_bytes": 34317
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/pxssh.py",
+        "path_type": "hardlink",
+        "sha256": "cd746a72309a0d2958f0462d2adc049d33ad890ada8d60b0ffe6ceda44ff4b60",
+        "sha256_in_prefix": "cd746a72309a0d2958f0462d2adc049d33ad890ada8d60b0ffe6ceda44ff4b60",
+        "size_in_bytes": 22589
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/pxssh.pyc",
+        "path_type": "hardlink",
+        "sha256": "153ebb185dcf9ee3f4caef3a6b1493da7d298af41e6c2d31b6471e17da78919a",
+        "sha256_in_prefix": "153ebb185dcf9ee3f4caef3a6b1493da7d298af41e6c2d31b6471e17da78919a",
+        "size_in_bytes": 17249
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/replwrap.py",
+        "path_type": "hardlink",
+        "sha256": "30c64b5443243038cce98b89e8af647c27698e846195af2385cebaec7d6531be",
+        "sha256_in_prefix": "30c64b5443243038cce98b89e8af647c27698e846195af2385cebaec7d6531be",
+        "size_in_bytes": 5170
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/replwrap.pyc",
+        "path_type": "hardlink",
+        "sha256": "918de91e6cb0a0b00f698bdb5577c2f3bdc7bf3e32382b10baddc3886acfcb39",
+        "sha256_in_prefix": "918de91e6cb0a0b00f698bdb5577c2f3bdc7bf3e32382b10baddc3886acfcb39",
+        "size_in_bytes": 4887
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/run.py",
+        "path_type": "hardlink",
+        "sha256": "d10902fad62f20bedf2bf50131cd531cfe48cea52e6f9a206faf33ac5f5929f7",
+        "sha256_in_prefix": "d10902fad62f20bedf2bf50131cd531cfe48cea52e6f9a206faf33ac5f5929f7",
+        "size_in_bytes": 6632
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/run.pyc",
+        "path_type": "hardlink",
+        "sha256": "f55c81562d9ed82b6f7c38fa70b4290da4fed95f0331a8146a047e11a4d82c2f",
+        "sha256_in_prefix": "f55c81562d9ed82b6f7c38fa70b4290da4fed95f0331a8146a047e11a4d82c2f",
+        "size_in_bytes": 6051
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/screen.py",
+        "path_type": "hardlink",
+        "sha256": "5215b2e78e1cc3da188847669ae49d1e036d52d3c4432fac16e5fb1586696095",
+        "sha256_in_prefix": "5215b2e78e1cc3da188847669ae49d1e036d52d3c4432fac16e5fb1586696095",
+        "size_in_bytes": 13716
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/screen.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f9f3159fa329d944421e80804fb8c321c8ffbff42e3db3220ad6bf18abc9f3c",
+        "sha256_in_prefix": "2f9f3159fa329d944421e80804fb8c321c8ffbff42e3db3220ad6bf18abc9f3c",
+        "size_in_bytes": 16885
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/spawnbase.py",
+        "path_type": "hardlink",
+        "sha256": "bfa4ffb5e051e1489f0cb11268c40f36fb393c0aaf4fc261b6ff9d6162773c1a",
+        "sha256_in_prefix": "bfa4ffb5e051e1489f0cb11268c40f36fb393c0aaf4fc261b6ff9d6162773c1a",
+        "size_in_bytes": 21067
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/spawnbase.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2772e140719657d4b447fdb8219669ae6fc111f9d6c5dfd7541973b5aa55488",
+        "sha256_in_prefix": "c2772e140719657d4b447fdb8219669ae6fc111f9d6c5dfd7541973b5aa55488",
+        "size_in_bytes": 19478
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d63221cd4ede06f637a5b5b72d9a09842394d8a5aa82dcb91e043a541608a795",
+        "sha256_in_prefix": "d63221cd4ede06f637a5b5b72d9a09842394d8a5aa82dcb91e043a541608a795",
+        "size_in_bytes": 6019
+      },
+      {
+        "_path": "lib/python2.7/site-packages/pexpect/utils.pyc",
+        "path_type": "hardlink",
+        "sha256": "349f1e7b5c17ef6009e28fa11f506d5b2e9fd2728503667b527e6520b776ad3c",
+        "sha256_in_prefix": "349f1e7b5c17ef6009e28fa11f506d5b2e9fd2728503667b527e6520b776ad3c",
+        "size_in_bytes": 4528
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 76138,
+  "subdir": "linux-64",
+  "timestamp": 1527826477402,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pexpect-4.6.0-py27_0.tar.bz2",
+  "version": "4.6.0"
+}

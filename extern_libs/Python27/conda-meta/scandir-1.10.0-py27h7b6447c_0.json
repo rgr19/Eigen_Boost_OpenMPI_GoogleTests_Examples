@@ -1,0 +1,109 @@
+{
+  "arch": "x86_64",
+  "build": "py27h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/scandir-1.10.0-py27h7b6447c_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/_scandir.so",
+    "lib/python2.7/site-packages/scandir-1.10.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/scandir-1.10.0.dist-info/LICENSE.txt",
+    "lib/python2.7/site-packages/scandir-1.10.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/scandir-1.10.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/scandir-1.10.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/scandir-1.10.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/scandir.py",
+    "lib/python2.7/site-packages/scandir.pyc"
+  ],
+  "fn": "scandir-1.10.0-py27h7b6447c_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/scandir-1.10.0-py27h7b6447c_0",
+    "type": 1
+  },
+  "md5": "7303cdd47cf9e4990fd798f9db8351bf",
+  "name": "scandir",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/scandir-1.10.0-py27h7b6447c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/_scandir.so",
+        "path_type": "hardlink",
+        "sha256": "9423c49c54218c259cc099e48d355c6c0f21b2f288194035f397b8cf54b11009",
+        "sha256_in_prefix": "9423c49c54218c259cc099e48d355c6c0f21b2f288194035f397b8cf54b11009",
+        "size_in_bytes": 29984
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir-1.10.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir-1.10.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a5e2fbdc239744419d29407cdbc92793c4d9c1d956c174f7cb7f96fa6d058c86",
+        "sha256_in_prefix": "a5e2fbdc239744419d29407cdbc92793c4d9c1d956c174f7cb7f96fa6d058c86",
+        "size_in_bytes": 1464
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir-1.10.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "514141e12b859740e5af02902187bf24dada294d323dddf77766fb5d205d6a23",
+        "sha256_in_prefix": "514141e12b859740e5af02902187bf24dada294d323dddf77766fb5d205d6a23",
+        "size_in_bytes": 9558
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir-1.10.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "94d150094c5535c55758687a236b831ec76077a569b33e0c64af59306742d2ca",
+        "sha256_in_prefix": "94d150094c5535c55758687a236b831ec76077a569b33e0c64af59306742d2ca",
+        "size_in_bytes": 644
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir-1.10.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1cc071b9d83505d8a09dfdf1b308273d66e47d1188d776e8810430582e31279c",
+        "sha256_in_prefix": "1cc071b9d83505d8a09dfdf1b308273d66e47d1188d776e8810430582e31279c",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir-1.10.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "231cdee663639a2b3df6a97b244b4061cf7e76324c6df471f85170dd1ff365ff",
+        "sha256_in_prefix": "231cdee663639a2b3df6a97b244b4061cf7e76324c6df471f85170dd1ff365ff",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir.py",
+        "path_type": "hardlink",
+        "sha256": "f7b0b6010227b8a93e3e16f769733b7c9a2685cfb4d2964c701babdb73549ab1",
+        "sha256_in_prefix": "f7b0b6010227b8a93e3e16f769733b7c9a2685cfb4d2964c701babdb73549ab1",
+        "size_in_bytes": 24827
+      },
+      {
+        "_path": "lib/python2.7/site-packages/scandir.pyc",
+        "path_type": "hardlink",
+        "sha256": "b617b180d03dca9480ac011868891f3ca8c291805e2436dbd7dc794da1afe737",
+        "sha256_in_prefix": "b617b180d03dca9480ac011868891f3ca8c291805e2436dbd7dc794da1afe737",
+        "size_in_bytes": 18410
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 32710,
+  "subdir": "linux-64",
+  "timestamp": 1552335425295,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/scandir-1.10.0-py27h7b6447c_0.tar.bz2",
+  "version": "1.10.0"
+}

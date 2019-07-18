@@ -1,0 +1,100 @@
+{
+  "arch": "x86_64",
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/certifi-2019.3.9-py27_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/certifi-2019.03.09-py2.7.egg-info",
+    "lib/python2.7/site-packages/certifi/__init__.py",
+    "lib/python2.7/site-packages/certifi/__init__.pyc",
+    "lib/python2.7/site-packages/certifi/__main__.py",
+    "lib/python2.7/site-packages/certifi/__main__.pyc",
+    "lib/python2.7/site-packages/certifi/cacert.pem",
+    "lib/python2.7/site-packages/certifi/core.py",
+    "lib/python2.7/site-packages/certifi/core.pyc"
+  ],
+  "fn": "certifi-2019.3.9-py27_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/certifi-2019.3.9-py27_0",
+    "type": 1
+  },
+  "md5": "abe3f6e1f8dd42a9e0228be3431cccdd",
+  "name": "certifi",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/certifi-2019.3.9-py27_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/certifi-2019.03.09-py2.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "3a0bccb6f2c20a9f6d6c9805a577c6fbcfd3bc03a5c3058e34851d9cc47530aa",
+        "sha256_in_prefix": "3a0bccb6f2c20a9f6d6c9805a577c6fbcfd3bc03a5c3058e34851d9cc47530aa",
+        "size_in_bytes": 2918
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8cd66a1ea7d0fa8d99ce013d2a9ccd5da6810730f6a07bb3acbf9c4b44bc858",
+        "sha256_in_prefix": "f8cd66a1ea7d0fa8d99ce013d2a9ccd5da6810730f6a07bb3acbf9c4b44bc858",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8ddda982c8f6bf3f098ff687bf2223a7b110e2f8d48bb10fcffaa56e9d5abae",
+        "sha256_in_prefix": "e8ddda982c8f6bf3f098ff687bf2223a7b110e2f8d48bb10fcffaa56e9d5abae",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+        "sha256_in_prefix": "162398b75165b6cb7bc24f4345ae860a806bf2a054c65350bbf30a25fd3813ab",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/__main__.pyc",
+        "path_type": "hardlink",
+        "sha256": "58479a5228c034002ff0fbf2da884edb86e635027ebb4056d128a1b979f105c1",
+        "sha256_in_prefix": "58479a5228c034002ff0fbf2da884edb86e635027ebb4056d128a1b979f105c1",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "397b833e5acf89a2709b964401a9aca68d24b62349b72bbe38684e586aa07a27",
+        "sha256_in_prefix": "397b833e5acf89a2709b964401a9aca68d24b62349b72bbe38684e586aa07a27",
+        "size_in_bytes": 284518
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/core.py",
+        "path_type": "hardlink",
+        "sha256": "12e15cd81b13a06e4ed7eaacc780528d0d6bd7eed646d1fcedbd567e564e5a12",
+        "sha256_in_prefix": "12e15cd81b13a06e4ed7eaacc780528d0d6bd7eed646d1fcedbd567e564e5a12",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python2.7/site-packages/certifi/core.pyc",
+        "path_type": "hardlink",
+        "sha256": "63eff33390f3638e4d3a72e138a7e2d0dcb41fb5ba49016c9d07221424cd11cf",
+        "sha256_in_prefix": "63eff33390f3638e4d3a72e138a7e2d0dcb41fb5ba49016c9d07221424cd11cf",
+        "size_in_bytes": 505
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 158539,
+  "subdir": "linux-64",
+  "timestamp": 1552318228443,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2019.3.9-py27_0.tar.bz2",
+  "version": "2019.3.9"
+}

@@ -1,0 +1,108 @@
+{
+  "arch": "x86_64",
+  "build": "py27_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/ptyprocess-0.6.0-py27_0",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/ptyprocess-0.6.0-py2.7.egg-info",
+    "lib/python2.7/site-packages/ptyprocess/__init__.py",
+    "lib/python2.7/site-packages/ptyprocess/__init__.pyc",
+    "lib/python2.7/site-packages/ptyprocess/_fork_pty.py",
+    "lib/python2.7/site-packages/ptyprocess/_fork_pty.pyc",
+    "lib/python2.7/site-packages/ptyprocess/ptyprocess.py",
+    "lib/python2.7/site-packages/ptyprocess/ptyprocess.pyc",
+    "lib/python2.7/site-packages/ptyprocess/util.py",
+    "lib/python2.7/site-packages/ptyprocess/util.pyc"
+  ],
+  "fn": "ptyprocess-0.6.0-py27_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/ptyprocess-0.6.0-py27_0",
+    "type": 1
+  },
+  "md5": "be452d40f176616bf35246ed994a362e",
+  "name": "ptyprocess",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/ptyprocess-0.6.0-py27_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess-0.6.0-py2.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "269fecd2a017a5d268840d92dc14ac8f28ac08c9f6088c0c021a44696d4e3909",
+        "sha256_in_prefix": "269fecd2a017a5d268840d92dc14ac8f28ac08c9f6088c0c021a44696d4e3909",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "43b09ddf55530a415683828f1ea67be7290e43b923e64ba8fadce4a8ecfcb2ea",
+        "sha256_in_prefix": "43b09ddf55530a415683828f1ea67be7290e43b923e64ba8fadce4a8ecfcb2ea",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/__init__.pyc",
+        "path_type": "hardlink",
+        "sha256": "2716da0120d0bc4a3fc4993fa76d541679117aff804e9bc2b0d336b96bbcc8ea",
+        "sha256_in_prefix": "2716da0120d0bc4a3fc4993fa76d541679117aff804e9bc2b0d336b96bbcc8ea",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/_fork_pty.py",
+        "path_type": "hardlink",
+        "sha256": "555bcccbc7386698c332220c4a0f13d414358374817b10e97b2fdcc62d27e5ac",
+        "sha256_in_prefix": "555bcccbc7386698c332220c4a0f13d414358374817b10e97b2fdcc62d27e5ac",
+        "size_in_bytes": 2362
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/_fork_pty.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bf0d032eb19b466047e91c7a16d2152866e484dbfbcaf55e2c50b2f6e3a4898",
+        "sha256_in_prefix": "2bf0d032eb19b466047e91c7a16d2152866e484dbfbcaf55e2c50b2f6e3a4898",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/ptyprocess.py",
+        "path_type": "hardlink",
+        "sha256": "ac3ff556e5b4d87c7007884f226e9c6a1e571b1ee91e3f10698cf93a1097c1fe",
+        "sha256_in_prefix": "ac3ff556e5b4d87c7007884f226e9c6a1e571b1ee91e3f10698cf93a1097c1fe",
+        "size_in_bytes": 31355
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/ptyprocess.pyc",
+        "path_type": "hardlink",
+        "sha256": "6392e419ac43956a16a0bc9fab33b90443b665976ef1d7ce078c0d7fcd90c29a",
+        "sha256_in_prefix": "6392e419ac43956a16a0bc9fab33b90443b665976ef1d7ce078c0d7fcd90c29a",
+        "size_in_bytes": 26615
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/util.py",
+        "path_type": "hardlink",
+        "sha256": "ad001d0d165fa0e88e9fabf2916b61d3023a145280a7b689b4149db7e28159d5",
+        "sha256_in_prefix": "ad001d0d165fa0e88e9fabf2916b61d3023a145280a7b689b4149db7e28159d5",
+        "size_in_bytes": 2785
+      },
+      {
+        "_path": "lib/python2.7/site-packages/ptyprocess/util.pyc",
+        "path_type": "hardlink",
+        "sha256": "daa10bd0677e5861c7f69746c273af81778ee3ba986145ec76f9744059f40df9",
+        "sha256_in_prefix": "daa10bd0677e5861c7f69746c273af81778ee3ba986145ec76f9744059f40df9",
+        "size_in_bytes": 2293
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 22710,
+  "subdir": "linux-64",
+  "timestamp": 1529940995642,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/ptyprocess-0.6.0-py27_0.tar.bz2",
+  "version": "0.6.0"
+}

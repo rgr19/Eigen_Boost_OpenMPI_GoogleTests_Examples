@@ -1,0 +1,59 @@
+{
+  "arch": "x86_64",
+  "build": "199",
+  "build_number": 199,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/intel-openmp-2019.3-199",
+  "features": "",
+  "files": [
+    "lib/libiomp5.so",
+    "lib/libiomp5_db.so",
+    "lib/libiompstubs5.so"
+  ],
+  "fn": "intel-openmp-2019.3-199.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/intel-openmp-2019.3-199",
+    "type": 1
+  },
+  "md5": "a5899677213fa3d86e51e8ce34b12048",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/intel-openmp-2019.3-199.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libiomp5.so",
+        "path_type": "hardlink",
+        "sha256": "1bef3c4b4fb99d3fed4fd6629e4addafcf632f0854c9e99ab5fbbfc77d88f109",
+        "sha256_in_prefix": "1bef3c4b4fb99d3fed4fd6629e4addafcf632f0854c9e99ab5fbbfc77d88f109",
+        "size_in_bytes": 2226679
+      },
+      {
+        "_path": "lib/libiomp5_db.so",
+        "path_type": "hardlink",
+        "sha256": "84092a794269364db42eb4f10292ef40be2435a75960626ec6907e16ac40f237",
+        "sha256_in_prefix": "84092a794269364db42eb4f10292ef40be2435a75960626ec6907e16ac40f237",
+        "size_in_bytes": 640599
+      },
+      {
+        "_path": "lib/libiompstubs5.so",
+        "path_type": "hardlink",
+        "sha256": "365e1e4a9ab5e87bbf9103a460fd4bfb09ced150b4872ee53724a2a26ac83f9b",
+        "sha256_in_prefix": "365e1e4a9ab5e87bbf9103a460fd4bfb09ced150b4872ee53724a2a26ac83f9b",
+        "size_in_bytes": 111991
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 906753,
+  "subdir": "linux-64",
+  "timestamp": 1552593606793,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/intel-openmp-2019.3-199.tar.bz2",
+  "version": "2019.3"
+}

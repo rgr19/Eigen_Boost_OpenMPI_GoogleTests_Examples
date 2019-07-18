@@ -1,0 +1,108 @@
+{
+  "arch": "x86_64",
+  "build": "py27_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/decorator-4.4.0-py27_1",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/INSTALLER",
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/LICENSE.txt",
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/METADATA",
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/RECORD",
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/WHEEL",
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/pbr.json",
+    "lib/python2.7/site-packages/decorator-4.4.0.dist-info/top_level.txt",
+    "lib/python2.7/site-packages/decorator.py",
+    "lib/python2.7/site-packages/decorator.pyc"
+  ],
+  "fn": "decorator-4.4.0-py27_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/decorator-4.4.0-py27_1",
+    "type": 1
+  },
+  "md5": "057581758a10af5d5513a3ce500f1133",
+  "name": "decorator",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/decorator-4.4.0-py27_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "fd11660cabf0532082c45706862fafc294907ec7f8e217818240a4999806782e",
+        "sha256_in_prefix": "fd11660cabf0532082c45706862fafc294907ec7f8e217818240a4999806782e",
+        "size_in_bytes": 1309
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5d7c36c6f209d47039d2a6d4d2ef1f3ad7136d3462e0d33ee8f4fd20f57aece8",
+        "sha256_in_prefix": "5d7c36c6f209d47039d2a6d4d2ef1f3ad7136d3462e0d33ee8f4fd20f57aece8",
+        "size_in_bytes": 3685
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6ee58ebf3cf8f73feb4e619b6cec0e156d468986f18f6d327e9a392392c9f8ec",
+        "sha256_in_prefix": "6ee58ebf3cf8f73feb4e619b6cec0e156d468986f18f6d327e9a392392c9f8ec",
+        "size_in_bytes": 674
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "sha256_in_prefix": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+        "sha256_in_prefix": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator-4.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "sha256_in_prefix": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "7a4416d8cdf6d04d1319955c63628ab6caf819a7a3c5ddc88e2b4cb8d1402015",
+        "sha256_in_prefix": "7a4416d8cdf6d04d1319955c63628ab6caf819a7a3c5ddc88e2b4cb8d1402015",
+        "size_in_bytes": 17244
+      },
+      {
+        "_path": "lib/python2.7/site-packages/decorator.pyc",
+        "path_type": "hardlink",
+        "sha256": "426c743905885e6776f3d20db310b4a1e2d30ce3157f4894e28d5d43c99ca985",
+        "sha256_in_prefix": "426c743905885e6776f3d20db310b4a1e2d30ce3157f4894e28d5d43c99ca985",
+        "size_in_bytes": 14965
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 18513,
+  "subdir": "linux-64",
+  "timestamp": 1553289502403,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/decorator-4.4.0-py27_1.tar.bz2",
+  "version": "4.4.0"
+}

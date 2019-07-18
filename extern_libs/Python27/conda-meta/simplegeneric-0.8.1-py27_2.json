@@ -1,0 +1,84 @@
+{
+  "arch": "x86_64",
+  "build": "py27_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=2.7,<2.8.0a0"
+  ],
+  "extracted_package_dir": "/home/egrzrbr/.local/share/miniconda37/pkgs/simplegeneric-0.8.1-py27_2",
+  "features": "",
+  "files": [
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/PKG-INFO",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/SOURCES.txt",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/dependency_links.txt",
+    "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/top_level.txt",
+    "lib/python2.7/site-packages/simplegeneric.py",
+    "lib/python2.7/site-packages/simplegeneric.pyc"
+  ],
+  "fn": "simplegeneric-0.8.1-py27_2.tar.bz2",
+  "license": "Zope Public",
+  "link": {
+    "source": "/home/egrzrbr/.local/share/miniconda37/pkgs/simplegeneric-0.8.1-py27_2",
+    "type": 1
+  },
+  "md5": "5c297ea25bf7db4a3af884f6ddc9f992",
+  "name": "simplegeneric",
+  "package_tarball_full_path": "/home/egrzrbr/.local/share/miniconda37/pkgs/simplegeneric-0.8.1-py27_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "d6d6450f6b011a2bf4b1117bf08acbd037d109683f797373d95fba9e4e8e6f95",
+        "sha256_in_prefix": "d6d6450f6b011a2bf4b1117bf08acbd037d109683f797373d95fba9e4e8e6f95",
+        "size_in_bytes": 10836
+      },
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "fdce8930aa7ba023c1f9821bc7df3b84abb8ddb2664c970f36ce781bea79f276",
+        "sha256_in_prefix": "fdce8930aa7ba023c1f9821bc7df3b84abb8ddb2664c970f36ce781bea79f276",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric-0.8.1-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cb2dca30718daffdb9d7eb991745904b609384ff7bbdb9c800a7200747e4d165",
+        "sha256_in_prefix": "cb2dca30718daffdb9d7eb991745904b609384ff7bbdb9c800a7200747e4d165",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric.py",
+        "path_type": "hardlink",
+        "sha256": "a2ff8624f00f10111c3c54b2537dc7f38837bd77f947f66f860bb54b441d9780",
+        "sha256_in_prefix": "a2ff8624f00f10111c3c54b2537dc7f38837bd77f947f66f860bb54b441d9780",
+        "size_in_bytes": 2740
+      },
+      {
+        "_path": "lib/python2.7/site-packages/simplegeneric.pyc",
+        "path_type": "hardlink",
+        "sha256": "beb656c29e1843a1c3744358f6ea486808ef083aa9689583ed0c3584e141b012",
+        "sha256_in_prefix": "beb656c29e1843a1c3744358f6ea486808ef083aa9689583ed0c3584e141b012",
+        "size_in_bytes": 3629
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 9268,
+  "subdir": "linux-64",
+  "timestamp": 1518031044737,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/simplegeneric-0.8.1-py27_2.tar.bz2",
+  "version": "0.8.1"
+}
